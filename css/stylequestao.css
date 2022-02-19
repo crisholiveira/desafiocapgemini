@@ -1,0 +1,185 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+   
+    background-color:   #2d2d2d;
+}
+
+
+#logo h1 {
+    margin-top: 10vh;
+    color:#099c22;
+    margin-bottom: 20px;
+    font-size: 3rem;
+    text-align: center;
+}
+
+
+a, label {
+    font-size: 0.8rem;
+}
+
+#login-container {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 30px;
+    margin-top: 10vh;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+form{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+input, label {
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+label {
+    font-weight: bold;
+
+}
+
+input {
+    border-bottom: 2px solid #099c22; 
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+#esqueceu-senha {
+    text-align: right;
+    display: block;
+
+}
+
+input[type="submit"] {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 30px;
+    color: white;
+    background-color: #099c22;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #1d792c;
+    transition: 5s;
+    
+}
+
+
+input[type="reset"] {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 30px;
+    color: white;
+    background-color: #099c22;
+    cursor: pointer;
+}
+
+input[type="reset"]:hover {
+    background-color: #1d792c;
+    transition: 5s;
+    
+}
+
+#erros p {
+    font-size: 1rem;
+    color: red;
+}
+
+/*navbar */
+#navbar {
+    color: #099c22;
+    padding: 0 15px;
+    height: 60px;
+}
+
+#navbar h2, #navbar ul, #navbar li, #navbar nav {
+    display: inline-block;
+} 
+#navbar h2 {
+    padding: 0;
+    line-height: 60px;
+    margin-left: 55px;
+    font-size: 40px;
+   
+}
+
+
+#navbar nav {
+    float: right;
+    margin-right: 50px;
+      
+
+}
+
+#navbar ul {
+    margin-top: 22px;
+    
+}
+#navbar li {
+    margin:0 10px;
+}
+
+#navbar-list li a {
+    text-decoration: none;
+    color: #099c22;
+    font-size: 30px;
+}
+
+#navbar-list li a:hover {
+    border-bottom: 1px solid #099c22;
+}
+
+/*escadaria */
+#escadaria ul {
+    list-style: none;
+    text-align: right;  
+
+}
+
+#imgpower {
+    background-image: url('../img/senhaforte.jpg');
+    background-size: cover;
+    width: 600px;
+    min-width: 300px;
+    height: 600px;
+    margin: auto;
+    border: solid 5px greenyellow;
+}
+
+
+#imgcantando {
+    background-image: url('../img/eutentei.jpg');
+    background-size: cover;
+    width: 600px;
+    min-width: 300px;
+    height: 600px;
+    margin: auto;
+    border: solid 5px greenyellow;
+}
